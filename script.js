@@ -1,7 +1,14 @@
 import { drawTextField } from "./modules/drawTextField.js";
 import { drawKeyboard } from "./modules/drawKeyboard.js";
 import { drawStatusBar } from "./modules/drawStatusBar.js";
+import { solveKeyUp, solveKeyDown } from "./modules/keySolver.js";
 import keys from "./modules/keys.js";
+
+window.onfocus = function () {
+  document
+    .querySelectorAll(".key")
+    .forEach((el) => el.classList.remove("highlighted"));
+};
 
 window.onload = function () {
   let body = document.querySelector("body");
