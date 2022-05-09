@@ -1,0 +1,94 @@
+body {
+    -webkit-user-select: none;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.keyboard {
+    width: 950px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.key {
+    width: 50px;
+    padding: 5px;
+    height: 50px;
+    background-color: darkgray;
+    color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: relative;
+    margin: 5px;
+    padding-top: 5px;
+    display: flex;
+}
+
+.key-shift-value {
+    padding-left: 10%;
+    font-size: 14px;
+    -webkit-user-select: none;
+}
+
+.key-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 0 auto;   
+    -webkit-user-select: none;
+}
+
+.highlighted {
+    background-color: darkblue;
+    animation-name: hl;
+    animation-duration: 0.5s;
+}
+
+@keyframes hl {
+    0% {
+        border-radius: 5px;
+    }
+    100% {
+        border-radius: 50%;
+    }
+}
+
+.doublesize {
+    width: 100px;
+}
+
+.tripplesize {
+    width: 130px;
+}
+
+.spacebar {
+    flex-basis: 490px;
+}
+
+.capslock-indicator-wrapper {
+    display: flex;
+}
+
+.capslock-indicator {
+    width: 16px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.status-bar {
+    width: 950px;
+    display: flex;
+    justify-content: space-around;
+}
