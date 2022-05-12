@@ -1,4 +1,3 @@
-import { solveKeyUp, solveKeyDown } from "./keySolver.js";
 import { solveMouseUp, solveMouseDown } from "./mouseSolver.js";
 import keys from "./keys.js";
 
