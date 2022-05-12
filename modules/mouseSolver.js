@@ -1,4 +1,5 @@
-import keys from "./keys.js"
+import { drawKeyboard } from "./drawKeyboard.js";
+import keys from "./keys.js";
 
 function solveMouseDown(key, language, textField, shift) {
   textField.blur();

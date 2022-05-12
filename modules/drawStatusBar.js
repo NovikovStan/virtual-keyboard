@@ -42,7 +42,7 @@ export function drawStatusBar(parent) {
       : (languageField.selectedIndex = 1);
     localStorage.setItem('language', languageField.selectedOptions[0].value);
     parent.append(languageField);
-    languageField.addEventListener("change", (event) => {
+    languageField.addEventListener("change", () => {
       if (document.querySelector(".keyboard"))
         document.querySelector(".keyboard").remove();
       drawKeyboard(

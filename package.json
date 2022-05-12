@@ -4,7 +4,8 @@
   "description": "rss virtual keyboard task",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "eslint": "eslint"
   },
   "repository": {
     "type": "git",
