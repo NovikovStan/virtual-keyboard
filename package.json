@@ -1,0 +1,31 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "description": "rss virtual keyboard task",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "eslint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NovikovStan/virtual-keyboard.git"
+  },
+  "keywords": [
+    "rss",
+    "virtualkeyboard",
+    "education",
+    "task"
+  ],
+  "author": "Novikov Stanislav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NovikovStan/virtual-keyboard/issues"
+  },
+  "homepage": "https://github.com/NovikovStan/virtual-keyboard#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  }
+}
